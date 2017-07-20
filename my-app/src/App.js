@@ -2,6 +2,14 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+function Header () {
+  return(
+    <div>
+      
+    </div>
+  )
+}
+
 class App extends Component {
   render() {
     return (
