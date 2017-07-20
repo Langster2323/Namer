@@ -25,7 +25,7 @@ class App extends Component {
           <h2>Welcome to Namer</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          This will just be a name collector.
         </p>
       </div>
     );
