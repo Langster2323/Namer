@@ -17,17 +17,19 @@ function Header () {
   )
 }
 
+function Intro () {
+  <div className="App">
+  <Header />
+    <p className="App-intro">
+      This will just be a name collector.
+    </p>
+  </div>
+}
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
-      <Header />
-        <p className="App-intro">
-          This will just be a name collector.
-        </p>
-      </div>
-
-
+      <Intro />
     );
   }
 }
