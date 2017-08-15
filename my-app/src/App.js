@@ -9,15 +9,18 @@ var NAMES = [
 ];
 
 class Header extends React.Component {
+  render() {
   return(
     <div className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <h2>Welcome to Namer</h2>
     </div>
   )
+  };
 }
 
 class Intro extends React.Component {
+  render() {
   return (
     <div className="App">
     <Header />
@@ -26,6 +29,7 @@ class Intro extends React.Component {
       </p>
     </div>
   )
+  };
 }
 
 class App extends Component {
