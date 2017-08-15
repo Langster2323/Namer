@@ -32,6 +32,14 @@ class Intro extends React.Component {
   };
 }
 
+class NameTable extends React.Component {
+  render() {
+    return (
+
+    )
+  };
+}
+
 class App extends Component {
   render() {
     return (
