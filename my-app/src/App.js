@@ -17,7 +17,7 @@ function Header () {
   )
 }
 
-function Intro () {
+class Intro extends React.Component {
   return (
     <div className="App">
     <Header />
