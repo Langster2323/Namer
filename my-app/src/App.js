@@ -35,7 +35,9 @@ class Intro extends React.Component {
 class NameTable extends React.Component {
   render() {
     return (
+      <div>
 
+      </div>
     )
   };
 }
@@ -43,7 +45,9 @@ class NameTable extends React.Component {
 class NameTableRow extends React.Component {
   render() {
     return (
-
+      <div>
+      <tr>{this.props.Names.name}</tr>
+      </div>
     )
   };
 }
