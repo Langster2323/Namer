@@ -36,7 +36,7 @@ class NameTable extends React.Component {
   render() {
     return (
       <div>
-
+        <NameTableRow />
       </div>
     )
   };
@@ -56,6 +56,7 @@ class App extends Component {
   render() {
     return (
       <Intro />
+
     );
   }
 }
