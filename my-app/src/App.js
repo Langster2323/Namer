@@ -40,6 +40,14 @@ class NameTable extends React.Component {
   };
 }
 
+class NameTableRow extends React.Component {
+  render() {
+    return (
+
+    )
+  };
+}
+
 class App extends Component {
   render() {
     return (
