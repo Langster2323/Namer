@@ -52,6 +52,14 @@ class NameTableRow extends React.Component {
   };
 }
 
+class FilterNameTable extends React.Component {
+  render () {
+    return (
+      
+    )
+  };
+}
+
 class App extends Component {
   render() {
     return (
