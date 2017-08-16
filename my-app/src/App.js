@@ -32,13 +32,22 @@ class Intro extends React.Component {
   };
 }
 
+class AddNameForm extends React.Component {
+  render () {
+    return (
+      <form>
+        <input type="text" value={this.props.name} />
+        <input type="submit" value="Add Name" />
+      </form>
+    )
+  };
+}
+
 class NameTable extends React.Component {
   render() {
     return (
       <div>
-        <form>
-          <input type="text" value={this.props.name}>
-        </form>
+
       </div>
     )
   };
