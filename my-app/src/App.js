@@ -36,17 +36,9 @@ class NameTable extends React.Component {
   render() {
     return (
       <div>
-        <NameTableRow />
-      </div>
-    )
-  };
-}
-
-class NameTableRow extends React.Component {
-  render() {
-    return (
-      <div>
-      <tr>{this.props.Names.name}</tr>
+        <form>
+          <input type="text" value={this.props.name}>
+        </form>
       </div>
     )
   };
