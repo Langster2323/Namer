@@ -47,7 +47,7 @@ class NameTable extends React.Component {
   render() {
     return (
       <div>
-
+        <AddNameForm />
       </div>
     )
   };
