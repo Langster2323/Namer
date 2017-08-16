@@ -55,7 +55,8 @@ class NameTableRow extends React.Component {
 class FilterNameTable extends React.Component {
   render () {
     return (
-      
+      <Intro />
+      <NameTable />
     )
   };
 }
