@@ -10,3 +10,5 @@ class AddNameForm extends React.Component {
     )
   };
 }
+
+export default AddNameForm;
