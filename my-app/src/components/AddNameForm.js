@@ -1,4 +1,4 @@
-
+import React, { Component } from 'react';
 
 class AddNameForm extends React.Component {
   render () {
