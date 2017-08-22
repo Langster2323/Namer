@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid } from 'react-bootstrap';
+import AddNameForm from './component/AddNameForm';
 
 var NAMES = [
   {
