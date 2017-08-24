@@ -7,8 +7,8 @@ class AddNameForm extends React.Component {
         <input type="text" value={this.props.name} />
         <input type="submit" value="Add Name" />
       </form>
-    )
-  };
+    );
+  }
 }
 
 export default AddNameForm;
