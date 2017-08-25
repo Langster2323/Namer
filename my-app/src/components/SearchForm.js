@@ -4,7 +4,7 @@ import {
   FormGroup,
   FormControl,
   Button
-}
+} from 'react-bootstrap';
 
 const SearchForm = () => (
   <Form inLine>
