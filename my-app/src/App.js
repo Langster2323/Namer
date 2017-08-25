@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Jumbotron } from 'react-bootstrap';
-import AddNameForm from './component/AddNameForm';
-import SearchForm from './component/SearchForm';
+import AddNameForm from './components/AddNameForm';
+import SearchForm from './components/SearchForm';
 
 var NAMES = [
   {
