@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-bootstrap';
+import { Grid, Jumbotron } from 'react-bootstrap';
 import AddNameForm from './component/AddNameForm';
 import SearchForm from './component/SearchForm';
 
@@ -13,7 +13,14 @@ var NAMES = [
 class App extends Component {
   render() {
     return (
-
+      <div>
+        <Jumbotron>
+        <Grid>
+          <h1>Name App</h1>
+          <p>This is a simple name collection app</p>
+        </Grid>
+        </Jumbotron>
+      </div>
     );
   }
 }
