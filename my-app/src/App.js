@@ -18,6 +18,8 @@ class App extends Component {
         <Grid>
           <h1>Name App</h1>
           <p>This is a simple name collection app</p>
+          <SearchForm />
+          <AddNameForm />
         </Grid>
         </Jumbotron>
       </div>
